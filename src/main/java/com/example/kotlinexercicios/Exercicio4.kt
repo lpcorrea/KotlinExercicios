@@ -34,7 +34,6 @@ class Person(val name: String, val age: Int, val hobby: String?, val referrer: P
             val referrerName = referrer.name
             val referrerHobby = referrer.hobby
             println("Has a referrer named $referrerName, who likes to $referrerHobby.")
-            return
         }else println("Doesn't have a referrer.")
     }
 }
